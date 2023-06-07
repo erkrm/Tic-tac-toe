@@ -1,0 +1,52 @@
+h1 {
+  color: orangered;
+  font-size: 45px;
+}
+
+/* grid 3*3*/
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5,
+#btn6,
+#btn7,
+#btn8,
+#btn9 {
+  width: 80px;
+  height: 52px;
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#btn-reset {
+  box-sizing: border-box;
+  width: 95px;
+  height: 40px;
+  border: 1px solid dodgerblue;
+  margin: auto;
+  border-radius: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#print {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: dodgerblue;
+  font-size: 20px;
+}
+
+#main {
+  text-align: center;
+}
+
+#inst {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: dodgerblue;
+}

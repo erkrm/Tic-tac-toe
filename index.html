@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div id="main">
+      <h1>TIC TAC TOE</h1>
+      <p id="inst">Game starts by just tap on box</p>
+
+      <br /><br />
+      <!-- 3*3 grid of boxes-->
+
+      <input type="text" id="btn1" onclick="myFun3(); myFun();" readonly />
+      <input type="text" id="btn2" onclick="myFun4(); myFun();" readonly />
+      <input type="text" id="btn3" onclick="myFun5(); myFun();" readonly />
+
+      <br /><br />
+
+      <input type="text" id="btn4" onclick="myFun6(); myFun();" readonly />
+      <input type="text" id="btn5" onclick="myFun7(); myFun();" readonly />
+      <input type="text" id="btn6" onclick="myFun8(); myFun();" readonly />
+
+      <br /><br />
+
+      <input type="text" id="btn7" onclick="myFun9(); myFun();" readonly />
+      <input type="text" id="btn8" onclick="myFun10(); myFun();" readonly />
+      <input type="text" id="btn9" onclick="myFun11(); myFun();" readonly />
+
+      <br /><br /><br />
+      <button id="btn-reset" onclick="myFun2()">RESET</button>
+
+      <br /><br />
+      <p id="print"></p>
+      <script src="app.js"></script>
+    </div>
+  </body>
+</html>
